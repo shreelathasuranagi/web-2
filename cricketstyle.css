@@ -1,0 +1,91 @@
+/* General styling */
+body {
+    background-image: url("https://media.tenor.com/4h0QOitgg_4AAAAC/cricket-ashes.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Top navigation container */
+.navigation {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    gap: 10px;  /* Space between the buttons */
+}
+
+/* Top navigation links (button-like style) */
+a {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(135, 135, 226, 0.4);
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+    display: inline-block; /* Ensures they look like buttons */
+    text-align: center;
+    min-width: 80px; /* Minimum width to make it look like a button */
+    cursor: pointer; /* Shows pointer on hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds subtle shadow for button-like effect */
+}
+
+div.navigation > a:hover {
+    background-color: #0056b3;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+}
+
+/* Center align tables */
+.table_1,
+.table_2 {
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px auto;
+    text-align: center;
+}
+
+/* Table styling */
+table {
+    border-collapse: collapse;
+    width: 500px;
+    margin: 0 10px;
+    background-color: rgb(117, 117, 117, 0.8);
+}
+
+table caption {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px 12px;
+    text-align: center;
+}
+
+th {
+    background-color: rgba(12, 12, 88, 0.4);
+    color: white;
+}
+
+/* Footer styling */
+.footer_section {
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background-color: rgb(135, 135, 226, 0.4);
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.footer_section strong {
+    color: #ffc107;
+}

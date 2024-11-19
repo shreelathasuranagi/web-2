@@ -1,0 +1,114 @@
+/* General styling */
+body {
+    background-image: url("https://media.tenor.com/kVe0Vada9h0AAAAC/cricket.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Section */
+.header_section {
+    background-color: rgb(145, 145, 223, 0.4);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.header_section h1 {
+    font-size: 30px;
+    margin: 0;
+}
+
+/* Main Content Section */
+.content_section {
+    padding: 20px;
+    text-align: center;
+}
+
+.content_section h2 {
+    font-size: 24px;
+    color: #70a0d3;
+}
+
+/* Image Gallery */
+.image_gallery {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.image_item {
+    text-align: center;
+    margin: 10px;
+}
+
+.match_image {
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image_item p {
+    font-size: 16px;
+    color: #050643;
+}
+
+/* Player Stats Table */
+.player_stats {
+    margin: 30px auto;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 70%;
+    margin: 0 auto;
+    background-color: rgb(247, 244, 244, 0.8);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+table caption {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+th, td {
+    border: 1px solid rgb(179, 172, 172, 0.8);
+    padding: 12px 20px;
+    text-align: center;
+}
+
+th {
+    background-color: rgb(113, 113, 199);
+    color: white;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: rgb(155, 153, 153, 0.8);
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Footer Section */
+.footer_section {
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background-color: rgb(145, 145, 223, 0.4);
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.footer_section strong {
+    color: #ffc107;
+}

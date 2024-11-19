@@ -1,0 +1,82 @@
+/* General styling */
+body {
+    background-image: url("https://66.media.tumblr.com/fded2e6dd551e4f85c034ec17498f1dd/tumblr_inline_os7gl1POac1rncs6d_500.gifv");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Section */
+.header_section {
+    background-color: rgb(169, 169, 245, 0.4);
+    color: rgb(43, 35, 111);
+    text-align: center;
+    padding: 30px;
+}
+
+.header_section h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+/* Navigation (Home and View buttons) */
+.navigation {
+    text-align: right;
+    padding: 10px 20px;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+.navigation .button {
+    text-decoration: none;
+    background-color: rgba(46, 46, 117, 0.4);
+    color: white;
+    padding: 10px 20px;
+    margin-left: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.navigation .button:hover {
+    background-color: #0056b3;
+}
+
+/* Main Content Section */
+.main_content {
+    text-align: center;
+    padding: 50px;
+    color: #232660;
+}
+
+.main_content h2 {
+    font-size: 28px;
+    color: #2826a278;
+}
+
+.main_content p {
+    font-size: 18px;
+    color: #555;
+    margin-top: 20px;
+}
+
+/* Footer Section */
+.footer_section {
+    text-align: center;
+    padding: 15px 0;
+    background-color: rgb(169, 169, 245, 0.4);
+    color: rgb(111, 122, 208);
+    font-size: 14px;
+    font-weight: bold;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer_section strong {
+    color: #220c64;
+}
